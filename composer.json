@@ -1,5 +1,5 @@
 {
-    "name": "manishtechniz/test-laravel-package/hello-world",
+    "name": "manishtechniz/hello-world",
     "type": "library",
     "autoload": {
         "psr-4": {
