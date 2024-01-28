@@ -6,20 +6,19 @@
             "TestPackage\\HelloWorld\\": "src/"
         }
     },
+    "homepage": "https://github.com/manishtechniz/hello-world",
     "authors": [
         {
             "name": "manishtechniz",
             "email": "manishtechniz@gmail.com"
         }
     ],
+    "license": "MIT",
     "require": {
         "php": "^8.0"
     },
-    "support": {
-        "issues": "https://github.com/manishtechniz/hello-world/issues",
-        "source": "https://github.com/manishtechniz/hello-world"  
-    },
-    "minimum-stability": "stable",
+   
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "optimize-autoloader": true,
@@ -29,5 +28,10 @@
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
         }
+    },
+
+    "support": {
+        "issues": "https://github.com/manishtechniz/hello-world/issues",
+        "source": "https://github.com/manishtechniz/hello-world"  
     }
 }
