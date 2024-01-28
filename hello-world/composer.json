@@ -1,5 +1,5 @@
 {
-    "name": "test-laravel-package/hello-world",
+    "name": "manishtechniz/test-laravel-package/hello-world",
     "type": "library",
     "autoload": {
         "psr-4": {
@@ -17,7 +17,7 @@
     },
     "support": {
         "issues": "https://github.com/manishtechniz/test-laravel-package/issues",
-        "source": "https://github.com/manishtechniz/test-laravel-package"  
+        "source": "https://github.com/manishtechniz/test-laravel-package/tree/master/hello-world"  
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
