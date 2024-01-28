@@ -1,5 +1,5 @@
 {
-    "name": "hello-world",
+    "name": "test-laravel-package/hello-world",
     "type": "library",
     "autoload": {
         "psr-4": {
@@ -14,5 +14,20 @@
     ],
     "require": {
         "php": "^8.0"
+    },
+    "support": {
+        "issues": "https://github.com/manishtechniz/test-laravel-package/issues",
+        "source": "https://github.com/manishtechniz/test-laravel-package"  
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
+        }
     }
 }
